@@ -1,0 +1,29 @@
+1. composer create-project --prefer-dist laravel/laravel laravel-socket-notifications
+2. composer require beyondcode/laravel-websockets -w //Solve Version issue
+3. php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="migrations"
+4. php artisan migrate
+5. php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="config"
+6. composer require pusher/pusher-php-server
+7. Change .env file
+   Puser info & driver [Demo]
+8. Change Settings From broadcast File
+   D:\xampp8.1.1\htdocs\laravel-socket-notifications\config\broadcasting.php
+
+ 9. Enable BoradCast Providers
+10. php artisan serve
+11. http://127.0.0.1:8000/laravel-websockets
+12. php artisan make:event testWebSocket
+13. Change Chanel name
+14. Change bootstrap file
+15. npm install laravel-echo pusher-js
+16. npm install
+17. npm  run dev
+18. create file for listener checkWebSocket
+19. Then http://127.0.0.1:8000/trigger-event hit from this event
+20. Get Listen from http://127.0.0.1:8000/listening-event
+21. Added for authenticaitons composer required laravel/ui --dev
+22. migrate
+
+
+
+
