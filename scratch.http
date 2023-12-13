@@ -1,0 +1,25 @@
+#GET https://jsonplaceholder.typicode.com/users
+#Accept: application/json
+
+# Default Login Checkup
+#POST /production/propsoft-api/public/api/login HTTP/1.1
+#Host: 139.59.35.127
+#Content-Length: 242
+#Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+#
+#------WebKitFormBoundary7MA4YWxkTrZu0gW
+#Content-Disposition: form-data; name="email"
+#
+#dhaka@gmail.com
+#------WebKitFormBoundary7MA4YWxkTrZu0gW
+#Content-Disposition: form-data; name="password"
+#
+#12345678
+#------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+
+GET /production/propsoft-api/public/api/auth/v1/po/get-po-line-items/420 HTTP/1.1
+Host: 139.59.35.127
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTM5LjU5LjM1LjEyNy9wcm9kdWN0aW9uL3Byb3Bzb2Z0LWFwaS9wdWJsaWMvYXBpL2xvZ2luIiwiaWF0IjoxNzAyNDYxMDk0LCJleHAiOjE3NTY0NjEwOTQsIm5iZiI6MTcwMjQ2MTA5NCwianRpIjoiVnRHZnRBUXc0RkV0bU0xNSIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.6TjJAERg6ExO_4YHXCToOOZIvz_0G-0wpGmUdYhGEvc
+Content-Length: 40
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
